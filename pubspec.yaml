@@ -7,14 +7,18 @@ funding:
   - https://www.paypal.com/donate?hosted_button_id=YRUNF9YWKX2NW
 
 environment:
-  sdk: ">=3.5.0 <4.0.0"
+  sdk: ">=3.4.0 <4.0.0"
 
 dependencies:
   fixnum: ^1.1.0
   decimal: ^3.0.0
   rational: ^2.2.2
   uuid: ^4.1.0
-  packages_extensions: ^0.1.0
+  packages_extensions: #^0.1.0
+    git:
+      url: https://github.com/al-tush/packages_extensions
+      ref: 9d9d058bdc7d2c11cd88455a96943c8f78fc4ae6
+
   power_extensions: ^0.2.0
 
 
